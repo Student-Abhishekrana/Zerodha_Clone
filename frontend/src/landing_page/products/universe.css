@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.description {
+  font-size: 0.75rem;
+  color: #9b9b9b;
+  line-height: 18px;
+  display: block;
+  margin-top: 10px;
+}

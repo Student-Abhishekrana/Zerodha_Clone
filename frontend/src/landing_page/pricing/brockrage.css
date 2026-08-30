@@ -1,0 +1,30 @@
+*{
+    margin: 0;padding: 0;
+}
+
+.tableHeadFont{
+       border: none !important;
+    font-size: .90rem;
+    padding: 12px 15px;
+   }
+
+   .tdFont{
+    border: none !important;
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding: 12px 15px;
+   }
+   .Equity,.Currency,.Commodity{
+    display: none !important;
+  
+   }
+   .showEquity,.showCurrency,.showCommodity{
+
+    display: block !important;
+   
+
+   }
+   .cursor-pointer{
+    color: black;
+    cursor: pointer;
+   }
