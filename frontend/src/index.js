@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./index.css";
 
 
 import HomePage from "./landing_page/home/HomePage";
 import SignUp from "./landing_page/signup/Signup";
+import Login from "./landing_page/Login/Login";
 import Products from "./landing_page/products/Products";
 import About from "./landing_page/about/About";
 import Pricing from "./landing_page/pricing/Princing";
@@ -22,6 +24,7 @@ root.render(
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="Signup" element={<SignUp />} />
+      <Route path="Login" element={<Login />} />
       <Route path="About" element={<About />} />
       <Route path="Products" element={<Products />} />
       <Route path="Pricing" element={<Pricing />} />

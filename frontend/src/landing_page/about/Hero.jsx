@@ -17,7 +17,12 @@ const Hero = () => {
 
       <div
         className="row mb-5 mt-5 border-top text-start item-center"
-        style={{ width: "64rem", margin: "auto", padding: "80px" }}
+        style={{
+          width: "100%",
+          maxWidth: "64rem",
+          margin: "auto",
+          padding: "clamp(20px, 5vw, 80px)",
+        }}
       >
         <div className="col-6" style={{ fontSize: "16px" }}>
           <p>

@@ -9,17 +9,17 @@ const Hero = () => {
       <div className="row text-center d-flex flex-wrap mt-5 pt-5">
 
         <div className="col">
-            <img src="Media\images\pricingMF.svg" alt="" />
+            <img src="/Media/images/pricingMF.svg" alt="Mutual fund pricing" />
             <h1 className="fs-3">Free equity delivery</h1>
             <p className="text-muted">All equity delivery investments (NSE, BSE), are absolutely free — ₹ 0 brokerage.</p>
         </div>
         <div className="col">
-            <img src="Media\images\intradayTrades.svg" alt="" />
+            <img src="/Media/images/intradayTrades.svg" alt="Intraday trading pricing" />
             <h1 className="fs-3">Free equity delivery</h1>
             <p className="text-muted ">All equity delivery investments (NSE, BSE), are absolutely free — ₹ 0 brokerage.</p>
         </div>
         <div className="col">
-            <img src="Media\images\pricingMF.svg" alt="" />
+            <img src="/Media/images/pricingMF.svg" alt="Mutual fund pricing" />
             <h1 className="fs-3">Free equity delivery</h1>
             <p className="text-muted">All equity delivery investments (NSE, BSE), are absolutely free — ₹ 0 brokerage.</p>
         </div>

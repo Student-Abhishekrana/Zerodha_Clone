@@ -1,35 +1,26 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
-    <div className="container p-5 ">
-      <div className="row text-center" style={{ marginTop: "5rem" }}>
+    <main className="hero-section">
+      <div className="container">
         <img
-          src="media/images/homeHero.png"
-          alt=" Hero Image"
-          style={{ width: "75%", margin: "auto" }}
+          className="hero-image"
+          src="/Media/images/homeHero.png"
+          alt="Zerodha investing platform displayed across devices"
         />
 
-        <h2 className="mt-5 text-muted">Invest in everything</h2>
-        <p className="fs-4 text-muted">
+        <h1>Invest in everything</h1>
+        <p className="fs-4">
           Online platform to invest in stocks, derivatives, mutual funds, ETFs,
           bonds, and more.
         </p>
-        <button
-          className="p-2 mt-5 fs-5  "
-          style={{
-            width: "16%",
-            margin: "auto",
-            backgroundColor: "#387ed1",
-            color: "#fff",
-           border :"none",
-          borderRadius :"5px"
-          }}
-        >
+        <Link to="/Signup" className="button hero-cta">
           Sign up for free
-        </button>
+        </Link>
       </div>
-    </div>
+    </main>
   );
 }
 

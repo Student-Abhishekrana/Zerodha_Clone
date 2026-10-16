@@ -1,5 +1,5 @@
 import React from "react";
-import Supported_Helper from "./Supported_Helper";
+import SupportedHelper from "./Supported_Helper";
 
 const Supported = () => {
   const support = {
@@ -47,7 +47,7 @@ const Supported = () => {
   return (
     <div>
         {Object.entries(support).map(([key, topics]) => (
-          <Supported_Helper key={key} title={key} topics={topics} />
+          <SupportedHelper key={key} title={key} topics={topics} />
         ))}
      
     </div>

@@ -12,8 +12,8 @@ const RightSection = ({
 }) => {
   return (
     <div className="container">
-      <div className="row p-5"  style={{width:"75rem", margin:"auto"}}>
-        <div className="col-5 p-5">
+      <div className="row product-row p-5">
+        <div className="col-5 product-copy">
           <h1 className="fs-4 text-muted">{productName}</h1>
           <p>{productDescription}</p>
 
@@ -25,19 +25,21 @@ const RightSection = ({
           <br /><br />
 
           <a href={googlePlay}>
-            <img src="/Media/images/googlePlayBadge.svg" alt="Google Play badge" />
+            <img src={googlePlay} alt="Get it on Google Play" />
           </a>
 
           <a href={appStore} className="m-3">
-            <img src="/Media/images/appstoreBadge.svg" alt="App Store badge" />
+            <img src={appStore} alt="Download on the App Store" />
           </a>
 
         </div>
 
-        <div className="col-1"></div>
-
-        <div className="col-6"  style={{width :{imageUrlWidth}}}>
-          <img src={imageUrl} alt={productName} />
+        <div className="col-6 product-image-column">
+          <img
+            src={imageUrl}
+            alt={`${productName} platform`}
+            style={imageUrlWidth ? { maxWidth: imageUrlWidth } : undefined}
+          />
         </div>
       </div>
     </div>

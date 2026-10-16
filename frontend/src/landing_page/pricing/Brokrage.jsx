@@ -1,4 +1,4 @@
-import React, { use, useState } from "react";
+import React, { useState } from "react";
 import "./brockrage.css";
 function Brokrage() {
   const [activeEquity, setActiveEquity] = useState(true);

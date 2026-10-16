@@ -1,6 +1,4 @@
-import React from 'react'
-import Navbar from '../Navbar';
-import Footer from '../Footer';
+import React from 'react';
 import Award from './Awards';
 import Hero from './Hero';
 import Stats from './Stats';

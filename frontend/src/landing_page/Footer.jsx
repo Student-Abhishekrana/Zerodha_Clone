@@ -7,7 +7,7 @@ function Footer() {
         <div className="row">
           <div className="col">
             <img
-              src="Media/images/logo.svg"
+              src="/Media/images/logo.svg"
               alt="logo"
               style={{ width: "70%" }}
             />
@@ -30,9 +30,8 @@ function Footer() {
           </div>
           <div className="col">
             <p className="  fs-5">Account</p>
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -41,11 +40,10 @@ function Footer() {
               }}
             >
               Open demat account
-            </a>{" "}
+            </span>{" "}
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -54,11 +52,10 @@ function Footer() {
               }}
             >
               Minor demat account
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -67,11 +64,10 @@ function Footer() {
               }}
             >
               NRI demat account
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -80,11 +76,10 @@ function Footer() {
               }}
             >
               HUF demat account
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -93,11 +88,10 @@ function Footer() {
               }}
             >
               Commodity
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -106,11 +100,10 @@ function Footer() {
               }}
             >
               Dematerialisation
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -119,11 +112,10 @@ function Footer() {
               }}
             >
               Fund transfer
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -132,14 +124,13 @@ function Footer() {
               }}
             >
               MTF
-            </a>
+            </span>
             <br />
           </div>
           <div className="col">
             <p className="  fs-5">Support</p>
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -148,11 +139,10 @@ function Footer() {
               }}
             >
               Contact us
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -161,11 +151,10 @@ function Footer() {
               }}
             >
               Support portal
-            </a>{" "}
+            </span>{" "}
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -174,10 +163,9 @@ function Footer() {
               }}
             >
               How to file a complaint?
-            </a>
-            <a
+            </span>
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -186,10 +174,9 @@ function Footer() {
               }}
             >
               Status of your complaints
-            </a>
-            <a
+            </span>
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -198,11 +185,10 @@ function Footer() {
               }}
             >
               Bulletin
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -211,11 +197,10 @@ function Footer() {
               }}
             >
               Circular
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -224,11 +209,10 @@ function Footer() {
               }}
             >
               Z-Connect blog
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -237,14 +221,13 @@ function Footer() {
               }}
             >
               Downloads
-            </a>
+            </span>
             <br />
           </div>
           <div className="col">
             <p className="  fs-5">company</p>
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -253,11 +236,10 @@ function Footer() {
               }}
             >
               About
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -266,11 +248,10 @@ function Footer() {
               }}
             >
               Philosophy
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -279,11 +260,10 @@ function Footer() {
               }}
             >
               Press & media
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -292,11 +272,10 @@ function Footer() {
               }}
             >
               Careers
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -305,11 +284,10 @@ function Footer() {
               }}
             >
               Zerodha Cares (CSR)
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -318,11 +296,10 @@ function Footer() {
               }}
             >
               Zerodha.tech
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -331,11 +308,10 @@ function Footer() {
               }}
             >
               Open source
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -344,15 +320,14 @@ function Footer() {
               }}
             >
               Referral program
-            </a>
+            </span>
             <br />
           </div>
           <div className="col">
             <p className="  fs-5">Quick links</p>
 
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -361,11 +336,10 @@ function Footer() {
               }}
             >
               Upcoming IPOs
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -374,11 +348,10 @@ function Footer() {
               }}
             >
               Brokerage charges
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -387,11 +360,10 @@ function Footer() {
               }}
             >
               Market holidays
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -400,11 +372,10 @@ function Footer() {
               }}
             >
               Economic calendar
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -413,11 +384,10 @@ function Footer() {
               }}
             >
               Calculators
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -426,11 +396,10 @@ function Footer() {
               }}
             >
               Markets
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -439,11 +408,10 @@ function Footer() {
               }}
             >
               Sectors
-            </a>
+            </span>
             <br />
-            <a
+            <span
               className="text-muted"
-              href="#"
               style={{
                 display: "inline-block",
                 textDecoration: "none",
@@ -452,7 +420,7 @@ function Footer() {
               }}
             >
               Gift Nifty
-            </a>
+            </span>
             <br />
           </div>
         </div>
@@ -465,19 +433,19 @@ function Footer() {
             Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase,
             Bengaluru - 560078, Karnataka, India. For any complaints pertaining
             to securities broking please write to{" "}
-            <a href="#">complaints@zerodha.com, </a>for DP related to{" "}
-            <a href="#">dp@zerodha.com. </a> Please ensure you carefully read
+            <span>complaints@zerodha.com, </span>for DP related to{" "}
+            <span>dp@zerodha.com. </span> Please ensure you carefully read
             the Risk Disclosure Document as prescribed by SEBI | ICF
           </p>
           <p>
-            Procedure to file a complaint on <a href="#">SEBI SCORES</a>:
+            Procedure to file a complaint on <span>SEBI SCORES</span>:
             Register on SCORES portal. Mandatory details for filing complaints
             on SCORES: Name, PAN, Address, Mobile Number, E-mail ID. Benefits:
             Effective Communication, Speedy redressal of the grievances
           </p>
           <p>
-            <a href="#">Smart Online Dispute Resolution</a> |{" "}
-            <a href="#">Grievances Redressal Mechanism</a>
+            <span>Smart Online Dispute Resolution</span> |{" "}
+            <span>Grievances Redressal Mechanism</span>
           </p>
           <p>
             Investments in securities market are subject to market risks; read
@@ -494,7 +462,7 @@ function Footer() {
           </p>
           <p>
             India's largest broker based on networth as per NSE.
-            <a href="#"> NSE broker factsheet</a>
+            <span> NSE broker factsheet</span>
           </p>
           <p>
             "Prevent unauthorised transactions in your account. Update your
@@ -513,14 +481,14 @@ function Footer() {
             stock tips, and have not authorized anyone to trade on behalf of
             others. If you find anyone claiming to be part of Zerodha and
             offering such services, please{" "}
-            <a href="#"> create a ticket here.</a>
+            <span> create a ticket here.</span>
           </p>
           <p>
             *Customers availing insurance advisory services offered by Ditto
             (Tacterial Consulting Private Limited | IRDAI Registered Corporate
             Agent (Composite) License No CA0738) will not have access to the
             exchange investor grievance redressal forum,{" "}
-            <a href="#">SEBI SCORES</a>/ODR, or arbitration mechanism for such
+            <span>SEBI SCORES</span>/ODR, or arbitration mechanism for such
             products.
           </p>
           <p>
@@ -530,7 +498,7 @@ function Footer() {
             Limited (SEBI Registration No.: INZ000031633) is acting solely as a
             distributor for these products. Any disputes arising with respect to
             such distribution activity will not have access to{" "}
-            <a href="#">SEBI SCORES</a>/ODR, Exchange Investor Grievance
+            <span>SEBI SCORES</span>/ODR, Exchange Investor Grievance
             Redressal Forum, or Arbitration mechanism. Fixed deposits are
             regulated by the Reserve Bank of India (RBI).
           </p>
@@ -539,76 +507,76 @@ function Footer() {
         <div className="text-muted p-3 ">
           <ul className="list-group list-group-horizontal list-unstyled justify-content-around fs-6">
             <li>
-              <a href="" className="text-decoration-none text-muted fs-6 ">
+              <span className="text-decoration-none text-muted fs-6 ">
                 {" "}
                 NSE{" "}
-              </a>{" "}
+              </span>{" "}
             </li>
 
             <li>
               {" "}
-              <a href="" className="text-decoration-none  text-muted fs-6">
+              <span className="text-decoration-none  text-muted fs-6">
                 BSE{" "}
-              </a>{" "}
+              </span>{" "}
             </li>
 
             <li>
-              <a href="" className="text-decoration-none  text-muted fs-6">
+              <span className="text-decoration-none  text-muted fs-6">
                 MCX{" "}
-              </a>{" "}
+              </span>{" "}
             </li>
             <li>
-              <a href="" className="text-decoration-none  text-muted fs-6">
+              <span className="text-decoration-none  text-muted fs-6">
                 MSEI{" "}
-              </a>{" "}
+              </span>{" "}
             </li>
 
             <li>
-              <a href="" className="text-decoration-none  text-muted fs-6">
+              <span className="text-decoration-none  text-muted fs-6">
                 {" "}
                 Terms & conditions{" "}
-              </a>
+              </span>
             </li>
 
             <li>
-              <a href="" className="text-decoration-none  text-muted fs-6">
+              <span className="text-decoration-none  text-muted fs-6">
                 Policies & procedures{" "}
-              </a>{" "}
+              </span>{" "}
             </li>
 
             <li>
-              <a href="" className="text-decoration-none  text-muted fs-6">
+              <span className="text-decoration-none  text-muted fs-6">
                 {" "}
                 Privacy policy
-              </a>{" "}
+              </span>{" "}
             </li>
 
             <li>
-              <a href="" className="text-decoration-none  text-muted fs-6">
+              <span className="text-decoration-none  text-muted fs-6">
                 {" "}
                 Disclosure{" "}
-              </a>{" "}
+              </span>{" "}
             </li>
 
             <li>
-              <a href="" className="text-decoration-none  text-muted fs-6">
+              <span className="text-decoration-none  text-muted fs-6">
                 {" "}
                 For investor's attention{" "}
-              </a>{" "}
+              </span>{" "}
             </li>
 
             <li>
-              <a href="" className="text-decoration-none  text-muted fs-6">
+              <span className="text-decoration-none  text-muted fs-6">
                 {" "}
                 Investor charter{" "}
-              </a>{" "}
+              </span>{" "}
             </li>
 
             <li>
-              <a href="" className="text-decoration-none  text-muted fs-6">
+              <span className="text-decoration-none  text-muted fs-6">
                 {" "}
                 Sitemap{" "}
-              </a>
+              </span>
             </li>
           </ul>
         </div>

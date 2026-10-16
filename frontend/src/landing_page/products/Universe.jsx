@@ -12,7 +12,7 @@ const Universe = () => {
       <div className="container-fluid d-flex flex-wrap">
         <div className="col-4 p-3">
           <img
-            src="Media\images\zerodhaFundhouse.png"
+            src="/Media/images/zerodhaFundhouse.png"
             alt="zerodhafundHouse"
            style={{ height: "55px" }}
            
@@ -27,7 +27,7 @@ const Universe = () => {
         </div>
         <div className="col-4 p-3">
           <img
-            src="Media\images\sensibull-logo.svg"
+            src="/Media/images/sensibull-logo.svg"
             alt="smallcaselogo"
            style={{ height: "55px" }}
            
@@ -43,7 +43,7 @@ const Universe = () => {
 
         <div className="col-4 p-3">
           <img
-            src="Media\images\streakLogo.png"
+            src="/Media/images/streakLogo.png"
             alt="StreakLogo"
            style={{ height: "55px" }}
            
@@ -58,7 +58,7 @@ const Universe = () => {
 
         <div className="col-4 p-3">
           <img
-            src="media/Images/smallcaseLogo.png"
+            src="/Media/images/smallcaseLogo.png"
             alt="smallcaselogo"
            style={{ height: "55px" }}
            
@@ -73,7 +73,7 @@ const Universe = () => {
         </div>
         <div className="col-4 p-3">
           <img
-            src="Media\images\dittoLogo.png"
+            src="/Media/images/dittoLogo.png"
             alt="smallcaselogo"
             style={{ height: "55px" }}
            
@@ -87,7 +87,7 @@ const Universe = () => {
         </div>
         <div className="col-4 p-3">
           <img
-            src="Media\images\tijori.svg"
+            src="/Media/images/tijori.svg"
             alt="smallcaselogo"
            style={{ height: "55px" }}
             

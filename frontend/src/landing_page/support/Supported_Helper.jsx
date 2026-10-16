@@ -1,43 +1,45 @@
 import React, { useState } from "react";
 import "./support_helper.css";
 
-const Supported_Helper = ({key,title,topics}) => {
-  const [show, setShow] = useState(false);
+const SupportedHelper = ({ title, topics }) => {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const contentId = `support-${title.toLowerCase().replace(/\W+/g, "-")}`;
 
-  const handleShowFunction = () => {
-    setShow(!show);
+  const handleToggle = () => {
+    setIsExpanded((expanded) => !expanded);
   };
 
   return (
     <div className="container">
-      <div
-        className="container p-3 border d-flex justify-content-between cursor-pointer rounded-2"
-        onClick={handleShowFunction}
+      <button
+        type="button"
+        className="support-section-toggle container p-3 border d-flex justify-content-between rounded-2"
+        onClick={handleToggle}
+        aria-expanded={isExpanded}
+        aria-controls={contentId}
       >
-        <div>
+        <span>
           <i className="fa-solid fa-plus border p-2 rounded-circle bg-dark text-light"></i>
           <span className="mx-2 fs-5 fw-medium">{title}</span>
-       
-        </div>
-        <div>
-          <i className="fa-solid fa-chevron-down p-2"></i>
-        </div>
-      </div>
+        </span>
+        <i className="fa-solid fa-chevron-down p-2" aria-hidden="true"></i>
+      </button>
 
       <div
-        className={`container border rounded-2 ${show ? "showItem" : "blockShowItem"} `}
+        id={contentId}
+        className={`container border rounded-2 ${isExpanded ? "showItem" : "blockShowItem"} `}
+        aria-hidden={!isExpanded}
       >
         <ul className="row g-3 py-3">
-            {topics.map((item) => (
-              <li className="fs-5" key={item}>
-                <a href="#">{item}</a>
-              </li>
-            ))}
-         
+          {topics.map((item) => (
+            <li className="fs-5" key={item}>
+              <span>{item}</span>
+            </li>
+          ))}
         </ul>
       </div>
     </div>
   );
 };
 
-export default Supported_Helper;
+export default SupportedHelper;
